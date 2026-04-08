@@ -1,0 +1,51 @@
+{
+  "SubNum": {
+    "Description": "The unique identification number assigned to each participants"
+  },
+  "Ver": {
+    "Description": "Indicates the specific stimulus set version assigned to the participant. To ensure balanced data collection, 40 videos were divided into 10 versions (Ver1-10), each containing 4 clips - one from each emotional category.",
+    "Levels": {
+      "1": "01, 11, 21, 31",
+      "10": "10, 20, 30, 40",
+      "2": "02, 12, 22, 32",
+      "3": "03, 13, 23, 33",
+      "4": "04, 14, 24, 34",
+      "5": "05, 15, 25, 35",
+      "6": "06, 16, 26, 36",
+      "7": "07, 17, 27, 37",
+      "8": "08, 18, 28, 38",
+      "9": "09, 19, 29, 39"
+    }
+  },
+  "Gender": {
+    "Description": "Biological sex of the participant",
+    "Levels": {
+      "1": "Male",
+      "2": "Female"
+    }
+  },
+  "Age": {
+    "Description": "The age of the participant at the time of the survey"
+  },
+  "A_SAM_Val": {
+    "Description": "Self-assessment of valence during the practice phase (A1-A3) using image stimuli. Rated on a 9-point scale from -4(Very Negative) to 4(Very Positive), where 0 represents Neutral."
+  },
+  "A_SAM_Aro": {
+    "Description": "Self-assessment of arousal during the practice phase (A1-A3). Rated on a 9-point scale from 1 (calm) to 9 (excited)."
+  },
+  "A_PrE": {
+    "Description": "Binary Response (0: Not selected, 1: Selected) for 16 discrete emotional adjectives via PrEmo during the practice phase. Adjectives follow the order: Joy, Hope, Pride, Admiration, Fascination, Desire, Satisfaction, Relaxation, Sadness, Fear, Shame, Contempt, Anger, Boredom, Disgust, and None of these."
+  },
+  "B_SAM_Val": {
+    "Description": "Self-assessment of valence for the 4 assigned video clips (B1-B4). Rate on a 9-point bipolar scale from -4 (Very Negative) to 4 (Very Positive), with 0 as a Neutral."
+  },
+  "B_SAM_Aro": {
+    "Description": "Self-assessment of arousal for the 4 video clips (B1-B4), ranging from 1 (calm) to 9 (excited)."
+  },
+  "B_PrE": {
+    "Description": "Binary responses for 16 PrEmo emotional adjectives for each video (B1-B4). The order of adjectives is identical to Part A."
+  },
+  "B_High": {
+    "Description": "Selection of emotional highlights from 6 chronological screenshots per video, plus a 'None of these' option. Results are recorded as binary values (0 or 1) across total 7 options, allowing for multiple selections per trial."
+  }
+}
