@@ -3,9 +3,7 @@
   "PowerLineFrequency": 60,
   "DewarPosition": "upright",
   "SoftwareFilters": "n/a",
-  "FiducialsPresent": true,
-  "HeadPointsPresent": false,
-  "DigitizedLandmarks": false,
-  "DigitizedHeadPoints": false,
+  "DigitizedLandmarks": true,
+  "DigitizedHeadPoints": true,
   "TaskName": "Low Arousal Low Valence (LALV)"
 }
