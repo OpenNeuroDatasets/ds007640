@@ -1,0 +1,34 @@
+{
+  "trial": {
+    "Description": "Trial index indicating the order in which the trials were presented, ranging from 1 to 10."
+  },
+  "video_id_presented": {
+    "Description": "Identifier of the video stimulus presented in the corresponding trial. The video IDs match those listed in Supplementary Table 1."
+  },
+  "SAM_valence": {
+    "Description": "Self-reported valence rating using the Self-Assessment Manikin (SAM). Rated on a 9-point scale ranging from 1 (Very Negative) to 9 (Very Positive), with 5 representing a Neutral affective state."
+  },
+  "SAM_arousal": {
+    "Description": "Self-reported arousal rating using the Self-Assessment Manikin (SAM). Rated on a 9-point scale ranging from 1 (Calm) to 9 (Excited)."
+  },
+  "premo": {
+    "Description": [
+      "Discrete emotion responses assessed using the PrEmo. ",
+      "Values range from 1 to 16, corresponding to the following emotional categories: ",
+      "1=Admiration, 2=Anger, 3=Boredom, 4=Contempt, 5=Content, 6=Desire, 7=Disgust, ",
+      "8=Fascination, 9=Fear, 10=Hope, 11=Joy, 12=Pride, 13=Relaxed, 14=Sadness, ",
+      "15=Shame, 16=None of these. Multiple selections are allowed."
+    ]
+  },
+  "Video_Status": {
+    "Description": "Response indicating whether the participant had prior experience watching the presented video. A value of 1 indicates Yes, and 2 indicates No."
+  },
+  "Highlights": {
+    "Description": [
+      "Selected highlight moments from the video stimulus. Values range from 1 to 7, where ",
+      "1 to 6 correspond to screenshots captured sequentially in temporal order during the video, ",
+      "and 7 indicates 'None of these'. Multiple selections are allowed."
+    ]
+  },
+  "TaskName": "High Arousal Low Valence (HALV)"
+}

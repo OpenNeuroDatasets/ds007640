@@ -1,0 +1,9 @@
+{
+  "SamplingFrequency": 1024,
+  "PowerLineFrequency": 60,
+  "DewarPosition": "upright",
+  "SoftwareFilters": "n/a",
+  "DigitizedLandmarks": true,
+  "DigitizedHeadPoints": true,
+  "TaskName": "Low Arousal Low Valence (LALV)"
+}
